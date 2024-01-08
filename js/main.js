@@ -1,3 +1,13 @@
+$(document).ready(function () {
+    $('.header__catalogs').click(function (e) {
+        e.preventDefault()
+        console.log('click');
+        $('.catalogs__item').slideToggle(500);
+    });
+});
+
+
+
 $('.best__slider').slick({
     dots: true,
     slidesToShow: 6,

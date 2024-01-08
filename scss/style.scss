@@ -211,6 +211,7 @@ area {
     font-weight: 400;
 
     &__item {
+        display: none;
         max-width: 72px;
         text-align: center;
     }

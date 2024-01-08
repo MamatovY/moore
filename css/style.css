@@ -243,6 +243,7 @@ area {
   font-weight: 400;
 }
 .catalogs__item {
+  display: none;
   max-width: 72px;
   text-align: center;
 }
